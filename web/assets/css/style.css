@@ -248,7 +248,7 @@ a:hover, a:focus, a:active {
 .reasons-col:hover .on-hover {
   visibility: visible;
   opacity: 1;
-  padding: 50px;
+  padding: 14px;
   -moz-transition: all, 1s;
   -o-transition: all, 1s;
   -webkit-transition: all, 1s;
