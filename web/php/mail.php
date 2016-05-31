@@ -1,89 +1,30 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: harrisonchow
+ * Date: 4/14/16
+ * Time: 10:32 PM
+ */
 
-/* =====================================================
- * change this to the email you want the form to send to
- * ===================================================== */
-$email_to = "zilinxie95@gmail.com"; 
-$email_from = "test@test.com"; // must be different than $email_from 
-$email_subject = "Contact Form submitted";
+require '../../vendor/autoload.php';
+$getPost = (array)json_decode(file_get_contents('php://input'));
 
-if(isset($_POST['email']))
-{
+$sendgrid = new SendGrid('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');
+$email = new SendGrid\Email();
 
-    function return_error($error)
-    {
-        echo json_encode(array('success'=>0, 'message'=>$error));
-        die();
-    }
-
-    // check for empty required fields
-    if (!isset($_POST['name']) ||
-        !isset($_POST['email']) ||
-        !isset($_POST['message']))
-    {
-        return_error('Please fill in all required fields.');
-    }
-
-    // form field values
-    $name = $_POST['name']; // required
-    $email = $_POST['email']; // required
-    $message = $_POST['message']; // required
-
-    // form validation
-    $error_message = "";
-
-    // name
-    $name_exp = "/^[a-z0-9 .\-]+$/i";
-    if (!preg_match($name_exp,$name))
-    {
-        $this_error = 'Please enter a valid name.';
-        $error_message .= ($error_message == "") ? $this_error : "<br/>".$this_error;
-    }        
-
-    $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
-    if (!preg_match($email_exp,$email))
-    {
-        $this_error = 'Please enter a valid email address.';
-        $error_message .= ($error_message == "") ? $this_error : "<br/>".$this_error;
-    } 
-
-    // if there are validation errors
-    if(strlen($error_message) > 0)
-    {
-        return_error($error_message);
-    }
-
-    // prepare email message
-    $email_message = "Form details below.\n\n";
-
-    function clean_string($string)
-    {
-        $bad = array("content-type", "bcc:", "to:", "cc:", "href");
-        return str_replace($bad, "", $string);
-    }
-
-    $email_message .= "Name: ".clean_string($name)."\n";
-    $email_message .= "Email: ".clean_string($email)."\n";
-    $email_message .= "Message: ".clean_string($message)."\n";
-
-    // create email headers
-    $headers = 'From: '.$email_from."\r\n".
-    'Reply-To: '.$email."\r\n" .
-    'X-Mailer: PHP/' . phpversion();
-    if (@mail($email_to, $email_subject, $email_message, $headers))
-    {
-        echo json_encode(array('success'=>1, 'message'=>'Form submitted successfully.')); 
-    }
-
-    else 
-    {
-        echo json_encode(array('success'=>0, 'message'=>'An error occured. Please try again later.')); 
-        die();        
-    }
+$email
+    ->addTo($getPost['sendTo'])
+    ->addToName($getPost['toName'])
+    //->addTo('bar@foo.com') //One of the most notable changes is how `addTo()` behaves. We are now using our Web API parameters instead of the X-SMTPAPI header. What this means is that if you call `addTo()` multiple times for an email, **ONE** email will be sent with each email address visible to everyone.
+    ->setFrom($getPost['sendFrom'])
+    ->setFromName($getPost['fromName'])
+    ->setSubject($getPost['subject'])
+    ->setText($getPost['msg'])
+    ->setHtml($getPost['msgHTML']);
+//test
+try {
+    $sendgrid->send($email);
+    echo json_encode(array('success' => true, 'message' => "done"));
+} catch (\SendGrid\Exception $e) {
+    echo json_encode(array('success' => false, 'message' => $e));
 }
-else
-{
-    echo 'Please fill in all required fields.';
-    die();
-}
-?>

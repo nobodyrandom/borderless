@@ -44,45 +44,77 @@ $(function(){
 	 /* Contact form ajax Handler
     ================================================*/
 
-    $(".ajax-form").on('submit', function() {
-    	var form = $(this);
-        var formURL = $(this).attr("action");
-        var postData = $(this).serializeArray();
+    $('form').submit(function(e) {
+        if (e.preventDefault) e.preventDefault();
+        else e.returnValue = false;
 
-        $.ajax({
-            url: formURL,
-            type: 'POST',
-            data: postData,
-            dataType: 'json',
+        var thisForm = $(this).closest('form');
 
-            success:function(data, textStatus, jqXHR){
+        if (thisForm.attr('data-form-type').indexOf("nob") > -1) {
+            // Nob form
+            var sendFrom = document.getElementById("email").value,
+                sendTo = "zilinxie95@gmail.com",
+                subject = "Message from " + sendFrom,
+                msg = document.getElementById("your-message").value,
+                msgHTML = "<em>" + document.getElementById("your-message").value + "<em>",
+                fromName = document.getElementById("your-name").value,
+                toName = "Developers' Foundation";
 
-                if(data.success==1){
-
-                    form.find(".alert").fadeOut();
-                    form.find(".alert-success").html(data.message);
-                    form.find(".alert-success").fadeIn(600);
-                    
-
-                }else{
-
-                	form.find(".alert").fadeOut();
-                    form.find(".alert-danger").html(data.message);
-                    form.find(".alert-danger").fadeIn(600);
-
-                }
-            },
-
-            error: function(jqXHR, textStatus, errorThrown)  { 
-                
-                console.log(errorThrown);
-            }
-
-        });
+            var sendData = JSON.stringify({
+                'sendFrom': sendFrom,
+                'fromName': fromName,
+                'sendTo': sendTo,
+                'toName': toName,
+                'subject': subject,
+                'msg': msg,
+                'msgHTML': msgHTML
+            });
             
+            var successMsg = thisForm.attr('data-success-msg');
+            var errorMsg = thisForm.attr('data-error-msg');
+            console.log(successMsg);
+            var statusDiv = $(".form-status")[0];
 
-        return false;
-     })
+            $.ajax({
+                url: 'mail/mailer.php',
+                crossDomain: false,
+                data: sendData,
+                method: "POST",
+                cache: false,
+                dataType: 'json',
+                contentType: 'application/json; charset=utf-8',
+                success: function (data) {
+                    // Deal with JSON
+                    console.log(data);
+                    var returnData = data;
+                    if (returnData.success) {
+                        // Throw success msg
+                        document.getElementById("submit").disabled = false;
+                        statusDiv.innerHTML = successMsg;
+                    } else {
+                        // Throw error message
+                        document.getElementById("submit").disabled = false;
+                        statusDiv.innerHTML = errorMsg;
+                    }
+                    statusDiv.style = "";
+                    //statusDiv.toggle("slow");
+                    document.getElementById("email").value = "";
+                    document.getElementById("your-message").value = "";
+                    document.getElementById("your-name").value = "";
+                },
+                error: function (error) {
+                    console.log(error);
+                    // Throw error message
+                    statusDiv.innerHTML = errorMsg;
+                    statusDiv.style = "";
+                    //statusDiv.toggle("slow");
+                    document.getElementById("email").value = "";
+                    document.getElementById("your-message").value = "";
+                    document.getElementById("your-name").value = "";
+                }
+            });
+        }
+    });
 
 
 
