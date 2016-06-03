@@ -327,6 +327,33 @@ a:hover, a:focus, a:active {
 .team-member .member-position {
   padding: 0 15px 5px;
 }
+.team-member .on-hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;/*125px*/
+  width: 89.6%;
+  padding: 25px;
+  color: #fff;
+  text-align: justify;
+  background: rgba(31, 118, 189, 0.9);
+  border-bottom: 1px solid #fff;
+  visibility: hidden;
+  opacity: 0;
+  -moz-transition: all, 0.5s;
+  -o-transition: all, 0.5s;
+  -webkit-transition: all, 0.5s;
+  transition: all, 0.5s;
+}
+.team-member:hover .on-hover {
+  visibility: visible;
+  font-size: 92%;
+  opacity: 1;
+  padding: 6px;
+  -moz-transition: all, 1s;
+  -o-transition: all, 1s;
+  -webkit-transition: all, 1s;
+  transition: all, 1s;
+}
 
 /* footer 
 ================================= */
@@ -492,6 +519,8 @@ form .alert {
 /* Causes 
 ================================= */
 .cause-carousel {
+	width:100%;
+	
   margin-top: 15px;
   margin-bottom: 30px;
 }
