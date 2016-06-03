@@ -389,7 +389,7 @@ $(document).ready(function() {
         if (thisForm.attr('data-form-type').indexOf("nob") > -1) {
             // Nob form
             var sendFrom = document.getElementById("email").value,
-                sendTo = "harrison@developersfoundation.ca",
+                sendTo = "zilinxie95@gmail.com",
                 subject = "Message from " + sendFrom,
                 msg = document.getElementById("your-message").value,
                 msgHTML = "<em>" + document.getElementById("your-message").value + "<em>",
