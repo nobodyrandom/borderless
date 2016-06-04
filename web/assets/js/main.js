@@ -412,7 +412,7 @@ $(document).ready(function() {
             var statusDiv = $(".form-status")[0];
 
             $.ajax({
-                url: 'mail/mailer.php',
+                url: 'php/mail.php',
                 crossDomain: false,
                 data: sendData,
                 method: "POST",
