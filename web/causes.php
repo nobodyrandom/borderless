@@ -15,8 +15,8 @@ echo "<!DOCTYPE html>
         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
 
         <!-- Fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
 
         <!-- Bootsrap -->
         <link rel=\"stylesheet\" href=\"assets/css/bootstrap.min.css\">
@@ -356,7 +356,7 @@ echo "
 
 
         <!-- jQuery -->
-        <script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>
+        <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>
         <script>window.jQuery || document.write('<script src=\"assets/js/jquery-1.11.1.min.js\"><\/script>')</script>
 
         <!-- Bootsrap javascript file -->
