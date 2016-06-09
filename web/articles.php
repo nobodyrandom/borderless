@@ -22,6 +22,26 @@
     <!-- Modernizr -->
     <script src="assets/js/modernizr-2.6.2.min.js"></script>
 
+    <!-- FAVICONS -->
+
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
 
 </head>
 <body>
@@ -72,7 +92,8 @@
             <div class="container">
 
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                            aria-expanded="false" aria-controls="navbar">
 
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
@@ -386,7 +407,10 @@ switch ($linkTo) {
                                 if (!d.getElementById(id)) {
                                     js = d.createElement(s);
                                     js.id = id;
-                                    js.src = p +"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                                    js.src = p + "://platform.twitter.com/widgets.js";
+                                    fjs.parentNode.insertBefore(js, fjs);
+                                }
+                            }(document, "script", "twitter-wjs");</script>
                     </div>
 
                 </div>
@@ -406,57 +430,60 @@ switch ($linkTo) {
 
                                     <form id="contact-form" name="form" class="form-email" method="post"
                                           action="javascript:void(0);"
-                                          data-form-type="nob" data-success-msg="Thanks :)" data-error-msg="Sorry, We hit a technical issue.">
+                                          data-form-type="nob" data-success-msg="Thanks :)"
+                                          data-error-msg="Sorry, We hit a technical issue.">
 
-                                    <div class="form-group">
-                                        <input type="text" name="your-name" id="your-name" class="form-control"
-                                               placeholder="Name" required>
-                                    </div>
+                                        <div class="form-group">
+                                            <input type="text" name="your-name" id="your-name" class="form-control"
+                                                   placeholder="Name" required>
+                                        </div>
 
-                                    <div class="form-group">
-                                        <input type="email" name="your-email" id="email" class="form-control"
-                                               placeholder="E-mail" required>
-                                    </div>
+                                        <div class="form-group">
+                                            <input type="email" name="your-email" id="email" class="form-control"
+                                                   placeholder="E-mail" required>
+                                        </div>
 
-                                    <div class="form-group">
+                                        <div class="form-group">
                                         <textarea name="your-message" id="your-message" class="form-control"
                                                   placeholder="Message" required></textarea>
-                                    </div>
+                                        </div>
 
-                                    <div class="form-group alerts">
+                                        <div class="form-group alerts">
 
-                                    <div class="alert alert-success" role="alert">
+                                            <div class="alert alert-success" role="alert">
+
+                                            </div>
+
+                                            <div class="alert alert-danger" role="alert">
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="form-group">
+                                            <button type="submit" id="submit" class="btn btn-submit pull-right">Send
+                                                message
+                                            </button>
+                                        </div>
+                                        <div class="form-status" style="display: none;">
+                                        </div>
+                                    </form>
 
                                 </div>
 
-                                <div class="alert alert-danger" role="alert">
-
                             </div>
-
                         </div>
 
-                        <div class="form-group">
-                            <button type="submit" id="submit" class="btn btn-submit pull-right">Send message</button>
-                        </div>
-                        <div class="form-status" style="display: none;">
                     </div>
-                    </form>
 
                 </div>
+                <div class="clearfix"></div>
+
 
             </div>
+
+
         </div>
-
-    </div>
-
-    </div>
-    <div class="clearfix"></div>
-
-
-    </div>
-
-
-    </div>
 
 
     </div>
@@ -464,8 +491,8 @@ switch ($linkTo) {
     <div class="footer-bottom">
 
         <div class="container text-right">
-        BorderlessRelief @ copyrights 2016
-    </div>
+            BorderlessRelief @ copyrights 2016
+        </div>
     </div>
 
 </footer> <!-- main-footer -->
@@ -473,10 +500,13 @@ switch ($linkTo) {
 
 <!-- jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.1.min.js"></script>')</script>
+<script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.1.min.js"></script>
+')</script>
 
 <!-- Bootsrap javascript file -->
-<script src="assets/js/bootstrap.min.js"></script>
+<
+script
+src = "assets/js/bootstrap.min.js" ></script>
 
 
 <!-- Template main javascript -->
