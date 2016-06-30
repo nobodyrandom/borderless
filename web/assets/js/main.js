@@ -464,7 +464,7 @@ $(document).ready(function () {
 		mapTypeId: google.maps.MapTypeId.ROADMAP,
 		navigationControl: true,
 		mapTypeControl: false,
-		scrollwheel: ,
+		scrollwheel: true,
 		disableDoubleClickZoom: true
 	};
 
