@@ -1,9 +1,9 @@
 /*------------------------------------------------------------------------------------------------------------------------
- 
+
  @package: Sadaka
  @author: Ouarmedia/Farouk BLALOU
  @version: 1.0
- 
+
  --------------------------------------------------------------------------------------------------------------------- */
 #google_map {
     height: 500px;
@@ -42,7 +42,7 @@ a:hover, a:focus, a:active {
 /* =============================================================================
   Layout
 ========================================================================== */
-/* Header 
+/* Header
 ================================= */
 .navbar-static-top {
     margin: 0;
@@ -70,8 +70,8 @@ a:hover, a:focus, a:active {
 
 .navbar-main {
     margin-bottom: 0;
-    color: #fff;
-    background: #1f76bd;
+    color: #1f76bd;
+    background: #fff;
 }
 
 .navbar-main .navbar-brand {
@@ -83,14 +83,14 @@ a:hover, a:focus, a:active {
 .navbar-main a:focus,
 .navbar-main a.is-active {
     background: none !important;
-    color: inherit;
-    border-bottom: 2px solid #fff;
+    color: #2bb659;
+    border-bottom: 2px solid #2bb659;
 }
 
 .navbar-main .submenu {
     position: absolute;
     list-style: none;
-    background: #1f76bd;
+    background: #fff;
     padding: 0;
     width: 150px;
     left: -35px;
@@ -103,11 +103,11 @@ a:hover, a:focus, a:active {
 }
 
 .navbar-main .submenu li {
-    border-top: 1px solid #185b91;
+    border-top: 1px solid #fff;
 }
 
 .navbar-main .submenu li:hover {
-    background: #185b91;
+    color: in
     -moz-transition: all, 0.3s;
     -o-transition: all, 0.3s;
     -webkit-transition: all, 0.3s;
@@ -126,6 +126,7 @@ a:hover, a:focus, a:active {
 .navbar-main li a {
     font-family: "Dosis", sans-serif;
     font-size: 18px;
+    Color: #0d76b7;
     padding: 20px 15px;
     border-bottom: 2px solid transparent;
 }
@@ -722,7 +723,7 @@ form .alert {
 
 .nav > li > a:hover, .nav > li > a:focus {
     background: #115c9b;
-    color: #fff;
+    color: #2bb659;
 }
 
 /* Accordion
