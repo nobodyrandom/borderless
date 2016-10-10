@@ -198,6 +198,28 @@ a:hover, a:focus, a:active {
     margin: 30px 0;
 }
 
+.section{
+    padding: 0 0 30px 30px;
+}
+
+.job1 {
+    padding: 30px 30px 30px 30px;
+    background-color: #ecf0f1;
+    position: relative;
+    overflow: hidden;
+}
+
+.job2 {
+    padding: 30px 30px 30px 30px;
+    background-color: #f3f7f8;
+    position: relative;
+    overflow: hidden;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
 /* home/ about-us 
 ================================= */
 .about-us {
