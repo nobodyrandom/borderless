@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5f797e9-91d2-4fd4-91ad-86c4239bbfdf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/css/fonts/themify.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/css/fonts/themify.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/css/themify-icons.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/web/assets/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/css/style.css" afterPath="$PROJECT_DIR$/web/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/joinus.html" afterPath="$PROJECT_DIR$/web/joinus.html" />
     </list>
     <ignored path="borderless.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -189,11 +183,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="joinus.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="joinus.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/joinus.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="211">
-              <caret line="376" column="12" selection-start-line="376" selection-start-column="12" selection-end-line="376" selection-end-column="12" />
+              <caret line="376" column="0" selection-start-line="376" selection-start-column="0" selection-end-line="376" selection-end-column="0" />
               <folding>
                 <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -284,11 +278,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="213" column="29" selection-start-line="213" selection-start-column="23" selection-end-line="213" selection-end-column="29" />
+            <state relative-caret-position="190">
+              <caret line="213" column="22" selection-start-line="213" selection-start-column="22" selection-end-line="213" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -349,9 +343,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/web/team.html" />
-        <option value="$PROJECT_DIR$/web/assets/css/style.css" />
         <option value="$PROJECT_DIR$/web/assets/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/web/joinus.html" />
+        <option value="$PROJECT_DIR$/web/assets/css/style.css" />
       </list>
     </option>
   </component>
@@ -597,7 +591,7 @@
       <workItem from="1475169691910" duration="1582000" />
       <workItem from="1475276377346" duration="561000" />
       <workItem from="1475352180595" duration="1025000" />
-      <workItem from="1476061877677" duration="10095000" />
+      <workItem from="1476061877677" duration="10408000" />
     </task>
     <task id="LOCAL-00001" summary="Navbar and formatting update">
       <created>1473048302739</created>
@@ -631,7 +625,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14107000" />
+    <option name="totallyTimeSpent" value="14420000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -652,7 +646,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30547112" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32674772" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32674772" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1779,14 +1773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="213" column="29" selection-start-line="213" selection-start-column="23" selection-end-line="213" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/assets/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1824,7 +1810,7 @@
     <entry file="file://$PROJECT_DIR$/web/joinus.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
-          <caret line="376" column="12" selection-start-line="376" selection-start-column="12" selection-end-line="376" selection-end-column="12" />
+          <caret line="376" column="0" selection-start-line="376" selection-start-column="0" selection-end-line="376" selection-end-column="0" />
           <folding>
             <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1899,6 +1885,14 @@
             <element signature="n#style#0;n#div#0;n#div#2;n#div#3;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#div#3;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="213" column="22" selection-start-line="213" selection-start-column="22" selection-end-line="213" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
