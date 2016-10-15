@@ -239,7 +239,7 @@ switch ($linkTo) {
 		<div class=\"container\">
 
 
-			<div class=\"row fadeIn animated\">
+			<div class=\"row secnd fadeIn animated\">
 
 				<div class=\"col-md-6\">
 
@@ -303,9 +303,9 @@ switch ($linkTo) {
 
 		<div class=\"container\">
 
-			<div class=\"row fadeIn animated\">
+			<div class=\"row secnd fadeIn animated\">
 
-			<div class=\"row\">
+			<div class=\"row secnd\">
 
 				<div class=\"col-md-2\">
 
@@ -319,7 +319,7 @@ switch ($linkTo) {
 				</div>
 			</div>
 
-			<div class=\"row\">
+			<div class=\"row secnd\">
 				<div class=\"col-md-2\">
 
 					<img src=\"assets/images/event2.png\" alt=\"\" class=\"img-responsive\">
@@ -332,7 +332,7 @@ switch ($linkTo) {
 				</div>
 			</div>
 
-			<div class=\"row\">
+			<div class=\"row secnd\">
 				<div class=\"col-md-2\">
 
 					<img src=\"assets/images/event3.png\" alt=\"\" class=\"img-responsive\">
@@ -345,7 +345,7 @@ switch ($linkTo) {
 				</div>
 			</div>
 
-			<div class=\"row\">
+			<div class=\"row secnd\">
 				<div class=\"col-md-2\">
 
 					<img src=\"assets/images/event4.png\" alt=\"\" class=\"img-responsive\">
@@ -358,7 +358,7 @@ switch ($linkTo) {
 				</div>
 			</div>
 
-			<div class=\"row\">
+			<div class=\"row secnd\">
 				<div class=\"col-md-2\">
 
 					<img src=\"assets/images/event5.png\" alt=\"\" class=\"img-responsive\">
@@ -381,9 +381,7 @@ echo "
     <footer class=\"main-footer\">
 
         <div class=\"footer-top\">
-
         </div>
-
 
         <div class=\"footer-main\">
             <div class=\"container\">
