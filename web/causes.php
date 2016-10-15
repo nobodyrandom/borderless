@@ -158,6 +158,47 @@ switch ($linkTo) {
         echo "<div class=\"main-container\">
 
 		<div class=\"container\">
+			<div class=\"row fadeIn animated\">
+				<div class=\"col-md-6\">
+					<h2 class=\"title-style-2\"> 2016: COLUMBIA<span class=\"title-under\"></span></h2>
+
+					
+
+				</div>
+
+				<div class=\"col-md-6\">
+
+					<img src=\"assets/images/causes/Colum.jpg\" alt=\"Columbia - 2016\" class=\"causesimg\">
+
+				</div>
+			</div>
+		</div>
+	</div> <!-- /.main-container  -->";
+        break;
+
+    case 2:
+        echo "<div class=\"main-container\">
+
+		<div class=\"container\">
+			<div class=\"row fadeIn animated\">
+				<div class=\"col-md-6\">
+					<h2 class=\"title-style-2\"> 2014: THE UKRAINIAN IDP CRISIS  <span class=\"title-under\"></span></h2>
+					<p>
+						BORDERLESS’s 2014-2015 campaign focused on bringing relief to Ukrainian IDPs displaced by the conflict in the Donbass region. In conjunction with Broadening Horizons, we successfully hosted an experts’ speaker series on the geopolitical and humanitarian situation in Ukraine, and ran \"Profs Got Talent!: Lip-Sync for Charity\". In addition, we partnered with the International Issues Discussion Series (IID) at Ryerson University and the University of Toronto United Nations Society (UNSOC) to raise awareness and donations. Together, we managed to raise US$2500, which was donated to the UNHCR, earmarked for bringing food and shelter to Ukrainian refugees in refugee camps.
+					</p>
+				</div>
+				<div class=\"col-md-6\">
+					<img src=\"assets/images/ukr.jpg\" alt=\"\" class=\"causesimg\">
+				</div>
+			</div>
+		</div>
+	</div> <!-- /.main-container  -->";
+        break;
+
+    case 3:
+        echo "<div class=\"main-container\">
+
+		<div class=\"container\">
 
 
 			<div class=\"row fadeIn animated\">
@@ -190,51 +231,11 @@ switch ($linkTo) {
 
 				</div>
 			</div>
-
-
 		</div>
-
-
-
-
-
-
 	</div> <!-- /.main-container  -->";
         break;
-    case 2:
-        echo "<div class=\"main-container\">
-
-		<div class=\"container\">
-
-			<div class=\"row fadeIn animated\">
-
-				<div class=\"col-md-6\">
-
-					<h2 class=\"title-style-2\"> 2014: THE UKRAINIAN IDP CRISIS  <span class=\"title-under\"></span></h2>
-
-					<p>
-						BORDERLESS’s 2014-2015 campaign focused on bringing relief to Ukrainian IDPs displaced by the conflict in the Donbass region. In conjunction with Broadening Horizons, we successfully hosted an experts’ speaker series on the geopolitical and humanitarian situation in Ukraine, and ran \"Profs Got Talent!: Lip-Sync for Charity\". In addition, we partnered with the International Issues Discussion Series (IID) at Ryerson University and the University of Toronto United Nations Society (UNSOC) to raise awareness and donations. Together, we managed to raise US$2500, which was donated to the UNHCR, earmarked for bringing food and shelter to Ukrainian refugees in refugee camps.
-					</p>
-
-				</div>
-
-				<div class=\"col-md-6\">
-
-					<img src=\"assets/images/ukr.jpg\" alt=\"\" class=\"causesimg\">
-
-				</div>
-
-			</div>
-
-		</div>
 
 
-
-
-
-
-	</div> <!-- /.main-container  -->";
-        break;
     default:
         echo "<div>default page</div>";
 }
@@ -280,7 +281,6 @@ echo "
                         </div>
 
                     </div>
-
 
                     <div class=\"col-md-4\">
 
@@ -336,15 +336,8 @@ echo "
 
                     </div>
                     <div class=\"clearfix\"></div>
-
-
-
                 </div>
-
-
             </div>
-
-
         </div>
 
         <div class=\"footer-bottom\">

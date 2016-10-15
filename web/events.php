@@ -162,7 +162,6 @@ switch ($linkTo) {
 
 		<div class=\"container\">
 
-
 			<div class=\"row fadeIn animated\">
 
 				<div class=\"col-md-6\">
@@ -279,8 +278,6 @@ switch ($linkTo) {
 
 				</div>
 			</div>
-
-
 		</div>
 
 
@@ -290,6 +287,7 @@ switch ($linkTo) {
 
 	</div> <!-- /.main-container  -->";
         break;
+
     default:
         echo "<div><div class=\"page-heading text-center\">
 
