@@ -187,7 +187,7 @@ switch ($linkTo) {
 		<div class=\"container\">
 			<div class=\"row fadeIn animated\">
 				<div class=\"col-md-8 col-md-offset-2 col-sm-12\">
-					<h1 class=\"title-style-2 text-center\">THE KAREN <span class=\"title-under\"></span></h1>
+					<h1 class=\"title-style-1 mb0\">THE KAREN <span class=\"title-under\"></span></h1>
 					<h4 align='center'>
 						Manfred Lai, University of Toronto student, reports on Myanmar's Karen minority..
 					</h4>
@@ -228,7 +228,7 @@ switch ($linkTo) {
 		<div class=\"container\">
 			<div class=\"row fadeIn animated\">
 			    <div class=\"col-md-8 col-md-offset-2 col-sm-12\">
-					<h1 class=\"title-style-2\">BURMESE DAYS: MODERN MYANMAR/BURMA IN HISTORY<span class=\"title-under\"></span></h1>
+					<h1 class=\"title-style-1 mb0\">BURMESE DAYS: MODERN MYANMAR/BURMA IN HISTORY<span class=\"title-under\"></span></h1>
 					<h4 align='center'>
 						Keith Garrett, University of Toronto student, reports on Myanmar's tragic history of war and dictatorship.
 					</h4>
