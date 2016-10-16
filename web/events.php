@@ -260,50 +260,50 @@ switch ($linkTo) {
 	<div class=\"section-home home-reasons\">
 		<div class=\"container2\">
 			<div class=\"row fadeIn animated\">
-                <div class=\"col-md-2 \">
+                <div class=\"col-md-3 col-md-offset-1 \">
                     <img src=\"assets/images/event1.png\" alt=\"\" class=\"img-responsive\">
                 </div>
                 
-                <div class=\"col-md-10\">
+                <div class=\"col-md-7\">
                     <h2 class=\"title-style-2\"><a href=\"events.php?event=1\">04/20/2016: Capturing Mo(ve)ments </a><span class=\"title-under\"></span></h2>
                 </div>
 			</div>
 
 			<div class=\"row fadeIn animated\">
-				<div class=\"col-md-2\">
+				<div class=\"col-md-3 col-md-offset-1 \">
 					<img src=\"assets/images/event2.png\" alt=\"\" class=\"img-responsive\">
 				</div>
-				<div class=\"col-md-10\">
-					<h2 class=\"title-style-2\"><a href=\"#\">03/18/2016: REL!EF </a><span class=\"title-under\"></span></h2>
+				<div class=\"col-md-7\">
+					<h2 class=\"title-style-2\"><03/18/2016: REL!EF<span class=\"title-under\"></span></h2>
 				</div>
 			</div>
 
 			<div class=\"row fadeIn animated\">
-				<div class=\"col-md-2\">
+				<div class=\"col-md-3 col-md-offset-1 \">
 					<img src=\"assets/images/event3.png\" alt=\"\" class=\"img-responsive\">
 				</div>
-				<div class=\"col-md-10\">
-					<h2 class=\"title-style-2\"><a href=\"#\">03/17/2016: Lost in Transition: Human Trafficking and Migrations in Myanmar </a><span class=\"title-under\"></span></h2>
+				<div class=\"col-md-7\">
+					<h2 class=\"title-style-2\">03/17/2016: Lost in Transition: Human Trafficking and Migrations in Myanmar<span class=\"title-under\"></span></h2>
 				</div>
 			</div>
 
 			<div class=\"row fadeIn animated\">
-				<div class=\"col-md-2\">
+				<div class=\"col-md-3 col-md-offset-1\">
 					<img src=\"assets/images/event4.png\" alt=\"\" class=\"img-responsive\">
 				</div>
 				
-				<div class=\"col-md-10\">
+				<div class=\"col-md-7\">
 					<h2 class=\"title-style-2\"><a href=\"events.php?event=2\">11/26/15: Myanmar Post-Election Conference: Prospects for Peace</a><span class=\"title-under\"></span></h2>
 				</div>
 			</div>
 
 			<div class=\"row fadeIn animated\">
-				<div class=\"col-md-2\">
+				<div class=\"col-md-3 col-md-offset-1 \">
 					<img src=\"assets/images/event5.png\" alt=\"\" class=\"img-responsive\">
 				</div>
 				
-				<div class=\"col-md-10\">
-					<h2 class=\"title-style-2\"><a href=\"#\">02/23/15: One Year Later: Ukrainian Civilians in the Crossfire </a><span class=\"title-under\"></span></h2>
+				<div class=\"col-md-7\">
+					<h2 class=\"title-style-2\">02/23/15: One Year Later: Ukrainian Civilians in the Crossfire <span class=\"title-under\"></span></h2>
 				</div>
 			</div>
         </div>
