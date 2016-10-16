@@ -43,7 +43,7 @@ a {
     color: inherit;
 }
 
-a:hover, a:focus, a:active {
+a:hover, b:focus, b:active {
     color: inherit;
 }
 
@@ -115,7 +115,7 @@ a:hover, a:focus, a:active {
 }
 
 .navbar-main .submenu li:hover {
-    color: in
+    color: inherit;
     -moz-transition: all, 0.3s;
     -o-transition: all, 0.3s;
     -webkit-transition: all, 0.3s;
@@ -134,9 +134,7 @@ a:hover, a:focus, a:active {
 .navbar-main li a {
     font-family: "Dosis", sans-serif;
     font-size: 18px;
-    Color: #0d76b7;
     padding: 20px 15px;
-    border-bottom: 2px solid transparent;
 }
 
 .navbar-main li:hover .submenu {
@@ -316,20 +314,20 @@ a:hover, a:focus, a:active {
     border-bottom: 1px solid #fff;
     visibility: hidden;
     opacity: 0;
-    -moz-transition: all, 0.5s;
+    /*-moz-transition: all, 0.5s;
     -o-transition: all, 0.5s;
     -webkit-transition: all, 0.5s;
-    transition: all, 0.5s;
+    transition: all, 0.5s;8 */
 }
 
 .reasons-col:hover .on-hover {
     visibility: visible;
     opacity: 1;
     padding: 14px;
-    -moz-transition: all, 1s;
+    /*-moz-transition: all, 1s;
     -o-transition: all, 1s;
     -webkit-transition: all, 1s;
-    transition: all, 1s;
+    transition: all, 1s; */
 }
 
 .reasons-col:hover img {
@@ -673,6 +671,31 @@ form .alert {
 .btn-secondary:hover {
     background: #1f76bd;
     color: #fff;
+}
+
+.btn-third {
+    background: #2ab558;
+    color: #fff;
+    border-radius: 24px;
+}
+
+.btn-third:hover {
+    background: #fff;
+    color: #2ab558;
+    border: 1px solid #2ab558;
+}
+.btn-third-nav {
+    background: #2ab558;
+    color: #fff;
+    border-radius: 24px;
+    border-bottom-width: 1px;
+    margin-top: 9px;
+}
+
+.btn-third-nav:hover {
+    background: #fff;
+    color: #2ab558;
+    border: 1px solid #2ab558;
 }
 
 .title-style-1 {
@@ -1258,7 +1281,13 @@ form .alert {
     animation-name: zoomIn;
 }
 
-/*!---------- 36. SPACING ----------*/
+/*----------- Lines ------------*/
+
+.hr2{
+    border-top: 2px solid #2ab558;
+}
+
+/*!---------- SPACING ----------*/
 
 .mb0 {
     margin-bottom: 0 !important;
@@ -1320,6 +1349,10 @@ form .alert {
 .mt8 {
     margin-top: 8px;
 }
+.mt12 {
+    margin-top: 12px;
+}
+
 .mt16 {
     margin-top: 16px;
 }
@@ -1383,6 +1416,9 @@ form .alert {
 .pt8 {
     padding-top: 8px;
 }
+.pt10{
+    padding-top: 10px;
+}
 .pt16 {
     padding-top: 16px;
 }
@@ -1437,6 +1473,10 @@ form .alert {
 .pb8 {
     padding-bottom: 8px;
 }
+.pb10 {
+    padding-bottom: 10px;
+}
+
 .pb16 {
     padding-bottom: 16px;
 }
