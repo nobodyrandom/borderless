@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User:
- * Date:
- * Time:
- */
 
 echo "<!DOCTYPE html>
 <html class=\"no-js\">
@@ -50,10 +44,7 @@ echo "<!DOCTYPE html>
         <meta name=\"msapplication-TileImage\" content=\"/ms-icon-144x144.png\">
         <meta name=\"theme-color\" content=\"#ffffff\">
 
-
-
-
-    </head>
+        </head>
     <body>
     <!-- NAVBAR
     ================================================== -->
@@ -114,9 +105,9 @@ echo "<!DOCTYPE html>
                         </li>
                         <li class=\"has-child\"><a href=\"#\">CAUSES</a>
                             <ul class=\"submenu\">
-                                <li class=\"submenu-item\"><a href=\"#\">2016: COLOMBIA </a></li>
-                                <li class=\"submenu-item\"><a href=\"#\">2015: MYANMAR </a></li>
-                                <li class=\"submenu-item\"><a href=\"#\">2014: THE UKRAINIAN IDP
+                                <!--<li class=\"submenu-item\"><a href=\"#\">2016: COLOMBIA </a></li>-->
+                                <li class=\"submenu-item\"><a href=\"causes.php?cause=2\">2015: MYANMAR </a></li>
+                                <li class=\"submenu-item\"><a href=\"causes.php?cause=3\">2014: THE UKRAINIAN IDP
                                     CRISIS </a></li>
                             </ul>
                         </li>
@@ -150,9 +141,7 @@ switch ($linkTo) {
 		<div class=\"container zoomIn animated\">
 
 			<h1 class=\"page-title\">04/20/2016 <span class=\"title-under\"></span></h1>
-			<p class=\"page-description\">
-				Capturing Mo(ve)ments
-			</p>
+			<p class=\"page-description\">Capturing Mo(ve)ments</p>
 		</div>
 	</div>
 	

@@ -161,15 +161,9 @@ switch ($linkTo) {
 			<div class=\"row fadeIn animated\">
 				<div class=\"col-md-6\">
 					<h2 class=\"title-style-2\"> 2016: COLUMBIA<span class=\"title-under\"></span></h2>
-
-					
-
 				</div>
-
 				<div class=\"col-md-6\">
-
 					<img src=\"assets/images/causes/Colum.jpg\" alt=\"Columbia - 2016\" class=\"causesimg\">
-
 				</div>
 			</div>
 		</div>
@@ -178,7 +172,6 @@ switch ($linkTo) {
 
     case 2:
         echo "<div class=\"main-container\">
-
 		<div class=\"container\">
 			<div class=\"row fadeIn animated\">
 				<div class=\"col-md-6\">
@@ -197,16 +190,10 @@ switch ($linkTo) {
 
     case 3:
         echo "<div class=\"main-container\">
-
 		<div class=\"container\">
-
-
 			<div class=\"row fadeIn animated\">
-
 				<div class=\"col-md-6\">
-
 					<h2 class=\"title-style-2\"> 2015: MYANMAR<span class=\"title-under\"></span></h2>
-
 					<p>
 						Our campaign this year focuses on the internal conflicts in Myanmar.
 					</p>
@@ -222,13 +209,9 @@ switch ($linkTo) {
 					<p>
 						This year, we will host academic awareness events and raise funds to support Burmese civilians displaced by Myanmar's internal conflicts.
 					</p>
-
 				</div>
-
 				<div class=\"col-md-6\">
-
 					<img src=\"assets/images/myanmar.jpg\" alt=\"\" class=\"causesimg\">
-
 				</div>
 			</div>
 		</div>
@@ -241,118 +224,75 @@ switch ($linkTo) {
 }
 echo "
     <footer class=\"main-footer\">
-
-        <div class=\"footer-top\">
-
-        </div>
-
+        <div class=\"footer-top\"></div>
 
         <div class=\"footer-main\">
             <div class=\"container\">
-
                 <div class=\"row\">
                     <div class=\"col-md-4\">
-
                         <div class=\"footer-col\">
-
                             <h4 class=\"footer-title\">About us <span class=\"title-under\"></span></h4>
-
                             <div class=\"footer-content\">
-
                                 <p>
 									BORDERLESS is a grassroots, non-partisan, non-profit organization which uses creative means of expression to draw attention to, educate on, and raise funds for often overlooked internally displaced persons (IDP) and refugee crises around the world by bringing together people of various backgrounds.
 								</p>
 								<p>
 									Our long-term vision is to be able to provide medical and general assistance to areas in immediate need. Funds raised by BORDERLESS and other student clubs, societies, and organizations would be sent to regions with large numbers of refugees that do not receive sufficient aid.
 								</p>
-
                             </div>
-
                         </div>
-
                     </div>
 
                     <div class=\"col-md-4\">
-
                         <div class=\"footer-col\">
-
                             <a class=\"twitter-timeline\" href=\"https://twitter.com/BORDERLESS15\" data-widget-id=\"738407228953243648\">Tweets by @BORDERLESS15</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+\"://platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");</script>
                         </div>
-
                     </div>
 
                     <div class=\"col-md-4\">
-
                         <div class=\"footer-col\">
-
                             <h4 class=\"footer-title\">Contact us <span class=\"title-under\"></span></h4>
-
                             <div class=\"footer-content\">
-
                                 <div class=\"footer-form\">
-
                                     <div class=\"footer-form\" >
-
-                                    <form id=\"contact-form\" name=\"form\" class=\"form-email\" method=\"post\" action=\"javascript:void(0);\"
-              data-form-type=\"nob\" data-success-msg=\"Thanks :)\" data-error-msg=\"Sorry, We hit a technical issue.\">
-
-                                        <div class=\"form-group\">
-                                            <input type=\"text\" name=\"your-name\" id=\"your-name\" class=\"form-control\" placeholder=\"Name\" required>
-                                        </div>
-
-                                         <div class=\"form-group\">
-                                            <input type=\"email\" name=\"your-email\"  id=\"email\" class=\"form-control\" placeholder=\"E-mail\" required>
-                                        </div>
-
-                                        <div class=\"form-group\">
-                                            <textarea name=\"your-message\" id=\"your-message\"  class=\"form-control\" placeholder=\"Message\" required></textarea>
-                                        </div>
-
-                                        <div class=\"form-group alerts\">
-
-                                            <div class=\"alert alert-success\" role=\"alert\">
-
+                                        <form id=\"contact-form\" name=\"form\" class=\"form-email\" method=\"post\" action=\"javascript:void(0);\" 
+                                        data-form-type=\"nob\" data-success-msg=\"Thanks :)\" data-error-msg=\"Sorry, We hit a technical issue.\">
+                                            <div class=\"form-group\">
+                                                <input type=\"text\" name=\"your-name\" id=\"your-name\" class=\"form-control\" placeholder=\"Name\" required>
                                             </div>
-
-                                            <div class=\"alert alert-danger\" role=\"alert\">
-
+                                             <div class=\"form-group\">
+                                                <input type=\"email\" name=\"your-email\"  id=\"email\" class=\"form-control\" placeholder=\"E-mail\" required>
                                             </div>
-
-                                        </div>
-
-                                         <div class=\"form-group\">
-                                            <button type=\"submit\" id=\"submit\" class=\"btn btn-submit pull-right\">Send message</button>
-                                        </div>
-                                        <div class=\"form-status\" style=\"display: none;\"></div>
-                                    </form>
-
-                                </div>
-
+                                            <div class=\"form-group\">
+                                                <textarea name=\"your-message\" id=\"your-message\"  class=\"form-control\" placeholder=\"Message\" required></textarea>
+                                            </div>
+                                            <div class=\"form-group alerts\">
+                                                <div class=\"alert alert-success\" role=\"alert\"></div>
+    
+                                                <div class=\"alert alert-danger\" role=\"alert\"></div>
+                                            </div>
+    
+                                             <div class=\"form-group\">
+                                                <button type=\"submit\" id=\"submit\" class=\"btn btn-submit pull-right\">Send message</button>
+                                            </div>
+                                            <div class=\"form-status\" style=\"display: none;\"></div>
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
-
                         </div>
-
                     </div>
                     <div class=\"clearfix\"></div>
                 </div>
             </div>
         </div>
-
         <div class=\"footer-bottom\">
-
             <div class=\"container text-right\">
                  BorderlessRelief @ copyrights 2016
             </div>
         </div>
-
     </footer> <!-- main-footer -->
-
-
-
-
-
 
         <!-- jQuery -->
         <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>

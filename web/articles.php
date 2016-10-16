@@ -104,9 +104,9 @@
                         </li>
                         <li class="has-child"><a href="#">CAUSES</a>
                             <ul class="submenu">
-                                <li class="submenu-item"><a href="#">2016: COLOMBIA </a></li>
-                                <li class="submenu-item"><a href="#">2015: MYANMAR </a></li>
-                                <li class="submenu-item"><a href="#">2014: THE UKRAINIAN IDP
+                                <!--<li class="submenu-item"><a href="#">2016: COLOMBIA </a></li>-->
+                                <li class="submenu-item"><a href="causes.php?cause=2">2015: MYANMAR </a></li>
+                                <li class="submenu-item"><a href="causes.php?cause=3">2014: THE UKRAINIAN IDP
                                         CRISIS </a></li>
                             </ul>
                         </li>
