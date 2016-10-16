@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User:
- * Date:
- * Time:
- */
 
 echo "<!DOCTYPE html>
 <html class=\"no-js\">
@@ -50,10 +44,7 @@ echo "<!DOCTYPE html>
         <meta name=\"msapplication-TileImage\" content=\"/ms-icon-144x144.png\">
         <meta name=\"theme-color\" content=\"#ffffff\">
 
-
-
-
-    </head>
+        </head>
     <body>
     <!-- NAVBAR
     ================================================== -->
@@ -114,9 +105,9 @@ echo "<!DOCTYPE html>
                         </li>
                         <li class=\"has-child\"><a href=\"#\">CAUSES</a>
                             <ul class=\"submenu\">
-                                <li class=\"submenu-item\"><a href=\"#\">2016: COLOMBIA </a></li>
-                                <li class=\"submenu-item\"><a href=\"#\">2015: MYANMAR </a></li>
-                                <li class=\"submenu-item\"><a href=\"#\">2014: THE UKRAINIAN IDP
+                                <!--<li class=\"submenu-item\"><a href=\"#\">2016: COLOMBIA </a></li>-->
+                                <li class=\"submenu-item\"><a href=\"causes.php?cause=2\">2015: MYANMAR </a></li>
+                                <li class=\"submenu-item\"><a href=\"causes.php?cause=3\">2014: THE UKRAINIAN IDP
                                     CRISIS </a></li>
                             </ul>
                         </li>
@@ -150,25 +141,15 @@ switch ($linkTo) {
 		<div class=\"container zoomIn animated\">
 
 			<h1 class=\"page-title\">04/20/2016 <span class=\"title-under\"></span></h1>
-			<p class=\"page-description\">
-				Capturing Mo(ve)ments
-			</p>
-
+			<p class=\"page-description\">Capturing Mo(ve)ments</p>
 		</div>
-
 	</div>
-
+	
 	<div class=\"main-container\">
-
 		<div class=\"container\">
-
-
 			<div class=\"row fadeIn animated\">
-
 				<div class=\"col-md-6\">
-
 					<h2 class=\"title-style-2\"> 04/20/2016: Capturing Mo(ve)ments<span class=\"title-under\"></span></h2>
-
 					<p>
 						Capturing Mo(ve)ments is a gallery and a photographic print sale, showcasing the photographs of international photojournalists around the world, who have generously donated their images from Myanmar, Cambodia, Thailand, South Africa, India, and other countries, which will be displayed in a gallery. The prints of their photographs will be sold for $20 each. All proceeds will be donated to a local NGO in Myanmar, the Back Pack Health Worker Team.
 					</p>
@@ -200,52 +181,32 @@ switch ($linkTo) {
 					<p>
 						BORDERLESS is a non-profit student group that raises funds and awareness for underreported refugee and internally displaced persons (IDP) crises.
 					</p>
-
-
 				</div>
 
 				<div class=\"col-md-6\">
-
 					<img src=\"assets/images/event1.png\" alt=\"\" class=\"causesimg\">
-
 				</div>
 			</div>
-
-
 		</div>
-
-
-
-
-
-
 	</div> <!-- /.main-container  -->";
         break;
+
+
     case 2:
         echo "<div class=\"page-heading text-center\">
-
 		<div class=\"container zoomIn animated\">
-
 			<h1 class=\"page-title\">11/26/2015 <span class=\"title-under\"></span></h1>
 			<p class=\"page-description\">
 				MYANMAR POST-ELECTION CONFERENCE: PROSPECTS FOR PEACE
 			</p>
-
 		</div>
-
 	</div>
-
+	
 	<div class=\"main-container\">
-
 		<div class=\"container\">
-
-
 			<div class=\"row fadeIn animated\">
-
 				<div class=\"col-md-6\">
-
 					<h2 class=\"title-style-2\"> 11/26/2015: MYANMAR POST-ELECTION CONFERENCE: PROSPECTS FOR PEACE<span class=\"title-under\"></span></h2>
-
 					<p>
 						This event is brought to you in partnership with BORDERLESS and the Asian Institute.
 					</p>
@@ -269,115 +230,73 @@ switch ($linkTo) {
 						Moderator:
 						<br>	- Mr. Emile Dirks, PhD student in Political Science, University of Toronto.
 					</p>
-
-
 				</div>
-
 				<div class=\"col-md-6\">
-
 					<img src=\"assets/images/event4.png\" alt=\"\" class=\"causesimg\">
-
 				</div>
 			</div>
-
-
 		</div>
-
-
-
-
-
-
 	</div> <!-- /.main-container  -->";
         break;
+
+
     default:
-        echo "<div><div class=\"page-heading text-center\">
-
+        echo "<div class=\"page-heading text-center\">
 		<div class=\"container zoomIn animated\">
-
 			<h1 class=\"page-title\">EVENTS <span class=\"title-under\"></span></h1>
-
 		</div>
-
 	</div>
-
-	<div class=\"main-container\">
-
-		<div class=\"container\">
+	<div class=\"section-home home-reasons\">
+		<div class=\"container2\">
+			<div class=\"row fadeIn animated\">
+                <div class=\"col-md-3 col-md-offset-1 \">
+                    <img src=\"assets/images/event1.png\" alt=\"\" class=\"img-responsive\">
+                </div>
+                
+                <div class=\"col-md-7\">
+                    <h2 class=\"title-style-2\"><a href=\"events.php?event=1\">04/20/2016: Capturing Mo(ve)ments </a><span class=\"title-under\"></span></h2>
+                </div>
+			</div>
 
 			<div class=\"row fadeIn animated\">
-
-			<div class=\"row\">
-
-				<div class=\"col-md-2\">
-
-					<img src=\"assets/images/event1.png\" alt=\"\" class=\"img-responsive\">
-
-				</div>
-				<div class=\"col-md-10\">
-
-					<h2 class=\"title-style-2\"><a href=\"events.php?event=1\">04/20/2016: Capturing Mo(ve)ments </a><span class=\"title-under\"></span></h2>
-
-				</div>
-			</div>
-
-			<div class=\"row\">
-				<div class=\"col-md-2\">
-
+				<div class=\"col-md-3 col-md-offset-1 \">
 					<img src=\"assets/images/event2.png\" alt=\"\" class=\"img-responsive\">
-
 				</div>
-				<div class=\"col-md-10\">
-
-					<h2 class=\"title-style-2\"><a href=\"#\">03/18/2016: REL!EF </a><span class=\"title-under\"></span></h2>
-
+				<div class=\"col-md-7\">
+					<h2 class=\"title-style-2\"><03/18/2016: REL!EF<span class=\"title-under\"></span></h2>
 				</div>
 			</div>
 
-			<div class=\"row\">
-				<div class=\"col-md-2\">
-
+			<div class=\"row fadeIn animated\">
+				<div class=\"col-md-3 col-md-offset-1 \">
 					<img src=\"assets/images/event3.png\" alt=\"\" class=\"img-responsive\">
-
 				</div>
-				<div class=\"col-md-10\">
-
-					<h2 class=\"title-style-2\"><a href=\"#\">03/17/2016: Lost in Transition: Human Trafficking and Migrations in Myanmar </a><span class=\"title-under\"></span></h2>
-
+				<div class=\"col-md-7\">
+					<h2 class=\"title-style-2\">03/17/2016: Lost in Transition: Human Trafficking and Migrations in Myanmar<span class=\"title-under\"></span></h2>
 				</div>
 			</div>
 
-			<div class=\"row\">
-				<div class=\"col-md-2\">
-
+			<div class=\"row fadeIn animated\">
+				<div class=\"col-md-3 col-md-offset-1\">
 					<img src=\"assets/images/event4.png\" alt=\"\" class=\"img-responsive\">
-
 				</div>
-				<div class=\"col-md-10\">
-
+				
+				<div class=\"col-md-7\">
 					<h2 class=\"title-style-2\"><a href=\"events.php?event=2\">11/26/15: Myanmar Post-Election Conference: Prospects for Peace</a><span class=\"title-under\"></span></h2>
-
 				</div>
 			</div>
 
-			<div class=\"row\">
-				<div class=\"col-md-2\">
-
+			<div class=\"row fadeIn animated\">
+				<div class=\"col-md-3 col-md-offset-1 \">
 					<img src=\"assets/images/event5.png\" alt=\"\" class=\"img-responsive\">
-
 				</div>
-				<div class=\"col-md-10\">
-
-					<h2 class=\"title-style-2\"><a href=\"#\">02/23/15: One Year Later: Ukrainian Civilians in the Crossfire </a><span class=\"title-under\"></span></h2>
-
+				
+				<div class=\"col-md-7\">
+					<h2 class=\"title-style-2\">02/23/15: One Year Later: Ukrainian Civilians in the Crossfire <span class=\"title-under\"></span></h2>
 				</div>
 			</div>
-
-			</div>
-
-		</div>
-
-	</div> <!-- /.main-container  --></div>";
+        </div>
+    </div> <!-- /section-home  -->";
 }
 echo "
     <footer class=\"main-footer\">
@@ -496,11 +415,6 @@ echo "
         </div>
 
     </footer> <!-- main-footer -->
-
-
-
-
-
 
         <!-- jQuery -->
         <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>
