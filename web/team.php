@@ -148,6 +148,7 @@
                     individuals who wish to make a positive impact. If you believe you are a good fit for a branch, contact
                     us for more information.
                 </h5>
+            </div>
         </div>
     </div>
 
