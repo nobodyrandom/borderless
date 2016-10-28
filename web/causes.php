@@ -59,8 +59,7 @@ echo "<!DOCTYPE html>
     ================================================== -->
 
     <header class=\"main-header\">
-
-<!-- Top Navbar -->
+    <!-- Top Navbar -->
     <nav class=\"navbar navbar-static-top\">
         <div class=\"navbar-top\">
             <div class=\"container\">
@@ -99,29 +98,28 @@ echo "<!DOCTYPE html>
                         <span class=\"icon-bar\"></span>
                         <span class=\"icon-bar\"></span>
                     </button>
-
-                    <a class=\"navbar-brand\" href=\"index.html\"><img src=\"assets/images/logo-small.png\" alt=\"\"></a>
+                    <a class=\"navbar-brand\" href=\"index.php\"><img src=\"assets/images/logo-small.png\" alt=\"\"></a>
                 </div>
 
                 <div id=\"navbar\" class=\"navbar-collapse collapse pull-right\">
                     <ul class=\"nav navbar-nav\">
-                        <li><a class=\"is-active\" href=\"index.html\">HOME</a></li>
-                        <li class=\"has-child\"><a href=\"about.html\">ABOUT</a>
+                        <li><a class=\"is-active\" href=\"index.php\">HOME</a></li>
+                        <li class=\"has-child\"><a href=\"about.php\">ABOUT</a>
                             <ul class=\"submenu\">
-                                <li class=\"submenu-item\"><a href=\"about.html\">ABOUT US </a></li>
-                                <li class=\"submenu-item\"><a href=\"team.html\">OUR TEAM </a></li>
+                                <li class=\"submenu-item\"><a href=\"about.php\">ABOUT US </a></li>
+                                <li class=\"submenu-item\"><a href=\"team.php\">OUR TEAM </a></li>
                             </ul>
                         </li>
                         <li class=\"has-child\"><a href=\"#\">CAUSES</a>
                             <ul class=\"submenu\">
-                                <li class=\"submenu-item\"><a href=\"#\">2016: COLOMBIA </a></li>
-                                <li class=\"submenu-item\"><a href=\"#\">2015: MYANMAR </a></li>
-                                <li class=\"submenu-item\"><a href=\"#\">2014: THE UKRAINIAN IDP
+                                <!--<li class=\"submenu-item\"><a href=\"#\">2016: COLOMBIA </a></li>-->
+                                <li class=\"submenu-item\"><a href=\"causes.php?cause=2\">2015: MYANMAR </a></li>
+                                <li class=\"submenu-item\"><a href=\"causes.php?cause=3\">2014: THE UKRAINIAN IDP
                                     CRISIS </a></li>
                             </ul>
                         </li>
                         <li><a href=\"events.php?event=0\">EVENTS</a></li>
-                        <li class=\"has-child\"><a href=\"news.html\">NEWS</a>
+                        <li class=\"has-child\"><a href=\"news.php\">NEWS</a>
                             <ul class=\"submenu\">
                                 <li class=\"submenu-item\"><a href=\"articles.php?article=1\">SPOTLIGHT ON BURMESE
                                     MINORITIES: THE SHAN </a></li>
@@ -131,16 +129,15 @@ echo "<!DOCTYPE html>
                                     MYANMAR/BURMA IN HISTORY</a></li>
                             </ul>
                         </li>
-                        <li><a href=\"#\">JOURNAL</a></li>
-                        <li><a href=\"joinus.html\">JOIN US</a></li>
-                        <li><a href=\"contact.html\">CONTACT</a></li>
+                        <!--<li><a href=\"#\">JOURNAL</a></li>-->
+                        <li><a href=\"contact.php\">CONTACT</a></li>
+                        <li><a href=\"joinus.php\" class=\"btn btn-third-nav\" style=\"padding-top: 10px;padding-bottom: 10px\";>JOIN US</a></li>
                     </ul>
                 </div> <!-- /#navbar -->
             </div> <!-- /.container -->
         </div> <!-- /.navbar-main -->
     </nav>
-
-    </header> <!-- /. main-header -->
+</header> <!-- /. main-header -->
 
 
 	<div class=\"page-heading text-center\">

@@ -148,17 +148,18 @@
                     individuals who wish to make a positive impact. If you believe you are a good fit for a branch, contact
                     us for more information.
                 </h5>
+            </div>
         </div>
     </div>
 
     <div class="our-team animate-onscroll fadeIn">
         <div class="container">
             <h2 class="title-style-1">Our Team <span class="title-under"></span></h2>
-            <div class="row">
-                <div class="col-md-4 col-md-offset-2 col-sm-6">
+            <div class="row row-centered">
+                <div class="col-md-3 col-centered">
                     <div class="team-member">
                         <div class="thumnail">
-                            <img src="" alt="" class="cause-img">
+                            <img src="assets/images/team/atilla.jpg" alt="" class="cause-img">
                         </div>
 
                         <h4 class="member-name"><a href="#">ATILLA SZABO</a></h4>
@@ -173,20 +174,20 @@
                             </p>
                         </div>
 
-                        <div class="btn-holder">
+                        <!-- <div class="btn-holder">
                             <a href="#" class="btn"> <i class="fa fa-envelope"></i> </a>
                             <a href="#" class="btn"> <i class="fa fa-facebook"></i> </a>
                             <a href="#" class="btn"> <i class="fa fa-google"></i> </a>
                             <a href="#" class="btn"> <i class="fa fa-twitter"></i> </a>
                             <a href="#" class="btn"> <i class="fa fa-linkedin"></i> </a>
-                        </div>
+                        </div> -->
                     </div> <!-- /.team-member -->
                 </div>
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-3 col-centered">
                     <div class="team-member">
                         <div class="thumnail">
-                            <img src="assets/images/team/#" alt="" class="cause-img">
+                            <img src="assets/images/team/sharon.jpg" alt="" class="cause-img">
                         </div>
                         <h4 class="member-name"><a href="#">SHARON MINOS</a></h4>
                         <div class="member-position">VICE PRESIDENT</div>
@@ -201,24 +202,23 @@
                             </p>
                         </div>
 
-                        <div class="btn-holder">
+                        <!--<div class="btn-holder">
                             <a href="#" class="btn"> <i class="fa fa-envelope"></i> </a>
                             <a href="#" class="btn"> <i class="fa fa-facebook"></i> </a>
                             <a href="#" class="btn"> <i class="fa fa-google"></i> </a>
                             <a href="#" class="btn"> <i class="fa fa-twitter"></i> </a>
                             <a href="#" class="btn"> <i class="fa fa-linkedin"></i> </a>
-                        </div>
+                        </div> -->
                     </div> <!-- /.team-member -->
                 </div>
 
             </div> <!-- /.row -->
 
-            <div class="row">
-
-                <div class="col-md-4 col-sm-6">
+            <div class="row row-centered">
+                <div class="col-md-3 col-centered">
                     <div class="team-member">
                         <div class="thumnail">
-                            <img src="assets/images/team/#" alt="" class="cause-img">
+                            <img src="assets/images/team/keith.jpg" alt="" class="cause-img">
                         </div>
                         <h4 class="member-name"><a href="#">KIETH GARRET</a></h4>
                         <div class="member-position">ACADEMIC EXECUTIVE</div>
@@ -231,20 +231,20 @@
                             </p>
                         </div>
 
-                        <div class="btn-holder">
+                        <!-- <div class="btn-holder">
                             <a href="#" class="btn"> <i class="fa fa-envelope"></i> </a>
                             <a href="#" class="btn"> <i class="fa fa-facebook"></i> </a>
                             <a href="#" class="btn"> <i class="fa fa-google"></i> </a>
                             <a href="#" class="btn"> <i class="fa fa-twitter"></i> </a>
                             <a href="#" class="btn"> <i class="fa fa-linkedin"></i> </a>
-                        </div>
+                        </div> -->
                     </div> <!-- /.team-member -->
                 </div>
 
-                <div class="col-md-4 col-sm-6" style="margin-bottom: 20px;">
+                <div class="col-md-3 col-centered">
                     <div class="team-member">
                         <div class="thumnail">
-                            <img src="assets/images/team/#" alt="" class="cause-img">
+                            <img src="assets/images/team/kenzie.jpg" alt="" class="cause-img">
                         </div>
                         <h4 class="member-name"><a href="#">KENZIE ZIMMER</a></h4>
                         <div class="member-position">INTERNAL EXECUTIVE - LOGISTICS</div>
@@ -259,20 +259,20 @@
                             </p>
                         </div>
 
-                        <div class="btn-holder">
+                        <!-- <div class="btn-holder">
                             <a href="#" class="btn"> <i class="fa fa-envelope"></i> </a>
                             <a href="#" class="btn"> <i class="fa fa-facebook"></i> </a>
                             <a href="#" class="btn"> <i class="fa fa-google"></i> </a>
                             <a href="#" class="btn"> <i class="fa fa-twitter"></i> </a>
                             <a href="#" class="btn"> <i class="fa fa-linkedin"></i> </a>
-                        </div>
+                        </div> -->
                     </div> <!-- /.team-member -->
                 </div>
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-3 col-centered">
                     <div class="team-member">
                         <div class="thumnail">
-                            <img src="assets/images/team/#" alt="" class="cause-img">
+                            <img src="assets/images/team/saad.jpg" alt="" class="cause-img">
                         </div>
                         <h4 class="member-name"><a href="#">SAAD SALEEM</a></h4>
                         <div class="member-position">INTERNAL EXECUTIVE - FINANCE</div>
@@ -287,13 +287,13 @@
                             </p>
                         </div>
 
-                        <div class="btn-holder">
+                        <!--<div class="btn-holder">
                             <a href="#" class="btn"> <i class="fa fa-envelope"></i> </a>
                             <a href="#" class="btn"> <i class="fa fa-facebook"></i> </a>
                             <a href="#" class="btn"> <i class="fa fa-google"></i> </a>
                             <a href="#" class="btn"> <i class="fa fa-twitter"></i> </a>
                             <a href="#" class="btn"> <i class="fa fa-linkedin"></i> </a>
-                        </div>
+                        </div> -->
                     </div> <!-- /.team-member -->
                 </div>
             </div> <!-- /.row -->
