@@ -168,6 +168,7 @@
 
                 <div class="col-md-4">
                     <div class="footer-col">
+                        <h4 class="footer-title">TWITTER FEED<span class="title-under"></span></h4>
                         <a class="twitter-timeline" href="https://twitter.com/BORDERLESS15"
                            data-widget-id="738407228953243648">Tweets by @BORDERLESS15</a>
                         <script>!function (d, s, id) {
