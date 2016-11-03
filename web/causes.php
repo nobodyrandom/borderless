@@ -221,75 +221,122 @@ switch ($linkTo) {
 }
 echo "
     <footer class=\"main-footer\">
-        <div class=\"footer-top\"></div>
 
-        <div class=\"footer-main\">
-            <div class=\"container\">
-                <div class=\"row\">
-                    <div class=\"col-md-4\">
-                        <div class=\"footer-col\">
-                            <h4 class=\"footer-title\">About us <span class=\"title-under\"></span></h4>
-                            <div class=\"footer-content\">
-                                <p>
-									BORDERLESS is a grassroots, non-partisan, non-profit organization which uses creative means of expression to draw attention to, educate on, and raise funds for often overlooked internally displaced persons (IDP) and refugee crises around the world by bringing together people of various backgrounds.
-								</p>
-								<p>
-									Our long-term vision is to be able to provide medical and general assistance to areas in immediate need. Funds raised by BORDERLESS and other student clubs, societies, and organizations would be sent to regions with large numbers of refugees that do not receive sufficient aid.
-								</p>
-                            </div>
+    <div class=\"footer-top\"></div>
+
+    <div class=\"footer-main\">
+        <div class=\"container\">
+            <div class=\"row\">
+                <div class=\"col-md-4\">
+                    <div class=\"footer-col\">
+                        <h4 class=\"footer-title\">About us <span class=\"title-under\"></span></h4>
+                        <div class=\"footer-content\">
+                            <p>
+                                BORDERLESS is a grassroots, non-partisan, non-profit organization which uses creative
+                                means of expression to draw attention to, educate on, and raise funds for often
+                                overlooked internally displaced persons (IDP) and refugee crises around the world by
+                                bringing together people of various backgrounds.
+                            </p>
+                            <p>
+                                Our long-term vision is to be able to provide medical and general assistance to areas in
+                                immediate need. Funds raised by BORDERLESS and other student clubs, societies, and
+                                organizations would be sent to regions with large numbers of refugees that do not
+                                receive sufficient aid.
+                            </p>
                         </div>
                     </div>
+                </div>
 
-                    <div class=\"col-md-4\">
-                        <div class=\"footer-col\">
-                            <a class=\"twitter-timeline\" href=\"https://twitter.com/BORDERLESS15\" data-widget-id=\"738407228953243648\">Tweets by @BORDERLESS15</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+\"://platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");</script>
+                <div class=\"col-md-4\">
+                    <div class=\"footer-col\">
+                        <h4 class=\"footer-title\">TWITTER FEED <span class=\"title-under\"></span></h4>
+                        <a class=\"twitter-timeline\" href=\"https://twitter.com/BORDERLESS15\"
+                           data-widget-id=\"738407228953243648\">Tweets by @BORDERLESS15</a>
+                        <script>!function (d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                            if (!d.getElementById(id)) {
+                                js = d.createElement(s);
+                                js.id = id;
+                                js.src = p + \"://platform.twitter.com/widgets.js\";
+                                fjs.parentNode.insertBefore(js, fjs);
+                            }
+                        }(document, \"script\", \"twitter-wjs\");</script>
+                    </div>
+                </div>
+
+                <div class=\"col-md-4\">
+                    <div class=\"footer-col\">
+                        <h4 class=\"footer-title\">WORLD NEWS <span class=\"title-under\"></span></h4>
+                        <!-- start feedwind code -->
+                        <script type=\"text/javascript\">document.write('\x3Cscript type=\"text/javascript\" src=\"' + ('https:' == document.location.protocol ? 'https://' : 'http://') + 'feed.mikle.com/js/rssmikle.js\">\x3C/script></script>
+                        <script type=\"text/javascript\">(function () {
+                            var params = {
+                                rssmikle_url: \"http://reliefweb.int/headlines/rss.xml\",
+                                rssmikle_frame_width: \"500\",
+                                rssmikle_frame_height: \"400\",
+                                frame_height_by_article: \"0\",
+                                rssmikle_target: \"_blank\",
+                                rssmikle_font: \"Arial, Helvetica, sans-serif\",
+                                rssmikle_font_size: \"12\",
+                                rssmikle_border: \"off\",
+                                responsive: \"off\",
+                                rssmikle_css_url: \"\",
+                                text_align: \"left\",
+                                text_align2: \"left\",
+                                corner: \"off\",
+                                scrollbar: \"on\",
+                                autoscroll: \"on\",
+                                scrolldirection: \"up\",
+                                scrollstep: \"3\",
+                                mcspeed: \"20\",
+                                sort: \"Off\",
+                                rssmikle_title: \"off\",
+                                rssmikle_title_sentence: \"\",
+                                rssmikle_title_link: \"\",
+                                rssmikle_title_bgcolor: \"#0066FF\",
+                                rssmikle_title_color: \"#FFFFFF\",
+                                rssmikle_title_bgimage: \"\",
+                                rssmikle_item_bgcolor: \"#FFFFFF\",
+                                rssmikle_item_bgimage: \"\",
+                                rssmikle_item_title_length: \"55\",
+                                rssmikle_item_title_color: \"#0066FF\",
+                                rssmikle_item_border_bottom: \"on\",
+                                rssmikle_item_description: \"on\",
+                                item_link: \"off\",
+                                rssmikle_item_description_length: \"150\",
+                                rssmikle_item_description_color: \"#666666\",
+                                rssmikle_item_date: \"gl1\",
+                                rssmikle_timezone: \"Etc/GMT\",
+                                datetime_format: \"%b %e, %Y %l:%M %p\",
+                                item_description_style: \"text+tn\",
+                                item_thumbnail: \"full\",
+                                item_thumbnail_selection: \"auto\",
+                                article_num: \"15\",
+                                rssmikle_item_podcast: \"off\",
+                                keyword_inc: \"\",
+                                keyword_exc: \"\"
+                            };
+                            feedwind_show_widget_iframe(params);
+                        })();
+                        </script>
+                        <div style=\"font-size:10px; text-align:center; width:300px;\"><a href=\"http://feed.mikle.com/\" target=\"_blank\" style=\"color:#CCCCCC;\">RSS Feed
+                            Widget</a><!--Please display the above link in your web page according to Terms of Service.-->
                         </div>
                     </div>
-
-                    <div class=\"col-md-4\">
-                        <div class=\"footer-col\">
-                            <h4 class=\"footer-title\">Contact us <span class=\"title-under\"></span></h4>
-                            <div class=\"footer-content\">
-                                <div class=\"footer-form\">
-                                    <div class=\"footer-form\" >
-                                        <form id=\"contact-form\" name=\"form\" class=\"form-email\" method=\"post\" action=\"javascript:void(0);\" 
-                                        data-form-type=\"nob\" data-success-msg=\"Thanks :)\" data-error-msg=\"Sorry, We hit a technical issue.\">
-                                            <div class=\"form-group\">
-                                                <input type=\"text\" name=\"your-name\" id=\"your-name\" class=\"form-control\" placeholder=\"Name\" required>
-                                            </div>
-                                             <div class=\"form-group\">
-                                                <input type=\"email\" name=\"your-email\"  id=\"email\" class=\"form-control\" placeholder=\"E-mail\" required>
-                                            </div>
-                                            <div class=\"form-group\">
-                                                <textarea name=\"your-message\" id=\"your-message\"  class=\"form-control\" placeholder=\"Message\" required></textarea>
-                                            </div>
-                                            <div class=\"form-group alerts\">
-                                                <div class=\"alert alert-success\" role=\"alert\"></div>
-    
-                                                <div class=\"alert alert-danger\" role=\"alert\"></div>
-                                            </div>
-    
-                                             <div class=\"form-group\">
-                                                <button type=\"submit\" id=\"submit\" class=\"btn btn-submit pull-right\">Send message</button>
-                                            </div>
-                                            <div class=\"form-status\" style=\"display: none;\"></div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class=\"clearfix\"></div>
                 </div>
             </div>
+            <div class=\"clearfix\"></div>
         </div>
-        <div class=\"footer-bottom\">
-            <div class=\"container text-right\">
-                 BorderlessRelief @ copyrights 2016
-            </div>
+    </div>
+    </div>
+
+    <div class=\"footer-bottom\">
+        <div class=\"container text-right\">
+            BorderlessRelief @ copyrights 2016
         </div>
-    </footer> <!-- main-footer -->
+    </div>
+
+</footer> <!-- main-footer -->
 
         <!-- jQuery -->
         <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>
